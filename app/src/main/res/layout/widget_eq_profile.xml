@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0E19"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widget_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AA VISUALIZER • EQ PROFILE"
+            android:textColor="#00E5FF"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Default"
+            android:textColor="#F2F6FF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Tap Cycle or Open Equalizer"
+            android:textColor="#9AA6C0"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/widget_btn_cycle"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="6dp"
+        android:backgroundTint="#1E2742"
+        android:text="Next EQ"
+        android:textAllCaps="false"
+        android:textColor="#00E5FF"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/widget_btn_open"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:backgroundTint="#00E5FF"
+        android:text="EQ"
+        android:textAllCaps="false"
+        android:textColor="#0A0E19"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

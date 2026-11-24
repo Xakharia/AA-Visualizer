@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="car_primary">#00E5FF</color>
+    <color name="car_primary_dark">#00B8D4</color>
+    <color name="car_secondary">#7C4DFF</color>
+    <color name="car_secondary_dark">#5E35B1</color>
+    <color name="icon_background">#0A0E19</color>
+</resources>

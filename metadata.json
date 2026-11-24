@@ -1,0 +1,6 @@
+{
+  "name": "AA Visualizer",
+  "description": "Real-time 24-style music visualizer, 10-band audio equalizer with 34 profiles, synchronized LRCLIB lyrics, and Android Auto companion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AA Visualizer</string>
+    <string name="wallpaper_description">Real-time audio-reactive visualizer live wallpaper</string>
+    <string name="dream_description">AA Visualizer OLED charging screensaver</string>
+    <string name="widget_description">Quick equalizer profile and audio source monitor</string>
+    <string name="notification_channel_name">Audio Engine Monitor</string>
+    <string name="notification_channel_desc">Keeps audio analysis, equalizer, and Android Auto companion synchronized</string>
+    <string name="notification_listener_label">AA Visualizer Media Monitor</string>
+</resources>

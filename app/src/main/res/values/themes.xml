@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AAVisualizer" parent="android:Theme.DeviceDefault.NoActionBar" />
+
+    <style name="CarAppTheme">
+        <item name="carColorPrimary">@color/car_primary</item>
+        <item name="carColorPrimaryDark">@color/car_primary_dark</item>
+        <item name="carColorSecondary">@color/car_secondary</item>
+        <item name="carColorSecondaryDark">@color/car_secondary_dark</item>
+    </style>
+</resources>
